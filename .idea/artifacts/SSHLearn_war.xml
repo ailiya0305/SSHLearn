@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSHLearn:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SSHLearn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SSHLearn.war">
+      <element id="artifact" artifact-name="SSHLearn:war exploded" />
+    </root>
+  </artifact>
+</component>
